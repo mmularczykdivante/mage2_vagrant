@@ -32,6 +32,12 @@ The Magento 2 repository is a git submodule and can be edited/explored from the 
 
 7. Install Magento 2 by running:
 
+fix for script error:
+1. `cd`
+2. `cd bin/`
+3. `sed -i -e 's/\r$//' reinstall`
+
+
  * Via CLI (recommended)
 
    * `reinstall` (Magento **without** sample data) or `reinstall -s` (Magento **with** sample data).
